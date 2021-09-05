@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weatherly - Home</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-    
+    <div class="jumbotron">
+        <h1>Weatherly</h1>
+        <a href="">API Link</a>
+    </div>
+    <div class="flex-area">
+        <div class="left-search">
+            <h2>Search for a City:</h2>
+            <br>
+            <form>
+                <input type="search" name="citySearch" id="citySearch" placeholder="City">
+                <br>
+                <button class="btn" type="submit">Search</button>
+            </form>
+            <hr>
+            <div class="searchHistory">
+                <ul>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="city-info">
+            <div class="city-info-text">
+                <span id="cityName">City</span>
+                <span id="date">Date</span>
+                <span id="weatherIcon">weatherIcon</span>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
